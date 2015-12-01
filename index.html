@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>菜单</title>
+    <meta name="viewport"
+          content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div class="menu-wrap clear" style="display: none">
+    <div class="menu-header">光华餐厅</div>
+    <div class="menu-right">
+        <ul class="menu-nav">
+            <li class="active">
+                <a href="#page1">
+                    <span>冷菜/凉菜</span>
+                    <em class="dish-add-num">1</em>
+                </a>
+            </li>
+            <li class="">
+                <a href="#page2">
+                    <span>热菜/炒菜</span>
+                    <em class="dish-add-num">1</em>
+                </a>
+            </li>
+            <li>
+                <a href="#page3">
+                    <span>卤味</span>
+                    <em class="dish-add-num">1</em>
+                </a>
+            </li>
+            <li>
+                <a href="#page4">
+                    <span>火锅</span>
+                    <em class="dish-add-num">1</em>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu-left" style="">
+        <ul class="menu-list">
+            <li id="page1">
+                <div class="title">冷菜/凉菜</div>
+                <ul class="dish-list clear">
+                    <li class="dish-container">
+                        <div class="dish-img">
+                            <img src="image/mo22.png"
+                                 style="height: 70px;width: 104.918032786885px;left: -17.4590163934426px;">
+                        </div>
+                        <div class="dish-content">
+                            <div class="dish-title">卤牛肉</div>
+                            <div class="dish-price"><em>￥</em><span>20</span>/份</div>
+                            <div class="dish-choose clear">
+                                <span class="dish-plus"></span>
+                                <span class="dish-num">32</span>
+                                <span class="dish-jian"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dish-container">
+                        <div class="dish-img">
+                            <img src="image/mo22.png"
+                                 style="height: 70px;width: 104.918032786885px;left: -17.4590163934426px;">
+                        </div>
+                        <div class="dish-content">
+                            <div class="dish-title">卤牛肉</div>
+                            <div class="dish-price"><em>￥</em><span>20</span>/份</div>
+                            <div class="dish-choose clear">
+                                <span class="dish-plus"></span>
+                                <span class="dish-num">32</span>
+                                <span class="dish-jian"></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li id="page2"></li>
+            <li id="page3"></li>
+            <li id="page4"></li>
+        </ul>
+    </div>
+    <div class="menu-select clear" style="">
+        <div class="menu-dish-icon" style="">
+            <img src="image/myOrder.png">
+            <em>3</em>
+        </div>
+        <p class="dish-price"><em>￥</em><span>20</span></p>
+        <button id="orderDish" class="button button-ok">
+            选好了<!--确定-->
+        </button>
+    </div>
+
+    <div class="mask" style=""></div>
+    <div class="menu-dish-car clear" style="">
+        <div class="dish-count clear">
+            <div class="dish-sure-num">
+                <img src="image/myOrder.png"/>
+                <span id="orderDishNum">10</span>
+            </div>
+        </div>
+        <div class="dish-show-num clear">
+            已选好 <span id="dishSelectNum">10</span> 道菜
+        </div>
+        <ul id="selectDish" class="clear dish-show-ul">
+            <li id="b_right_2_5" data-price="3.00" data-dish_id="511922a3d58e4f218b617ad619ecc80d"
+                data-group_row="_2_5">
+                <div class="clear">
+                    <span class="dish-show-name">烤羊肉串</span>
+                    <p class="menu-cont-price1">
+                        <em>￥</em><span>3.00</span>/份
+                    </p>
+                    <span class="dish-plus"></span>
+                    <span class="dish-num">1</span>
+                    <span class="dish-jian"></span>
+                </div>
+            </li>
+            <li id="b_right_4_5" data-price="3.00" data-dish_id="511922a3d58e4f218b617ad619ecc80d"
+                data-group_row="_2_5">
+                <div class="clear">
+                    <span class="dish-show-name">烤羊肉串</span>
+
+                    <p class="menu-cont-price1">
+                        <em>￥</em><span>3.00</span>/份
+                    </p>
+                    <span class="dish-plus"></span>
+                    <span class="dish-num">1</span>
+                    <span class="dish-jian"></span>
+                </div>
+            </li>
+            <li id="b_right_1_5" data-price="3.00" data-dish_id="511922a3d58e4f218b617ad619ecc80d"
+                data-group_row="_2_5">
+                <div class="clear">
+                    <span class="dish-show-name">烤羊肉串</span>
+
+                    <p class="menu-cont-price1">
+                        <em>￥</em><span>3.00</span>/份
+                    </p>
+                    <span class="dish-plus"></span>
+                    <span class="dish-num">1</span>
+                    <span class="dish-jian"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="lib/require/require.min.js" data-main="js/index"></script>
+<script>
+
+</script>
+</body>
+</html>
